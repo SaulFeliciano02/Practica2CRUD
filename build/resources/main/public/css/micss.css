@@ -16,7 +16,7 @@ table td, table th {
 }
 table thead tr {
     height: 60px;
-    background: #36304a;
+    background: grey;
 
 }
 table tbody tr {
