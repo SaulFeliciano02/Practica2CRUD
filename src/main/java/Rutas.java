@@ -24,7 +24,7 @@ public class Rutas {
         //configuration.setClassForTemplateLoading(this.getClass(), "/");
         try {
             configuration.setDirectoryForTemplateLoading(new File(
-                    "C:/ProyectosWeb/Practica2CRUD/src/main/resources/spark/template/freemarker"));
+                    "src/main/resources/spark/template/freemarker"));
         } catch (IOException e) {
             e.printStackTrace();
         }

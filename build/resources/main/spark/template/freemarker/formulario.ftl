@@ -18,7 +18,7 @@
         <form action="/modificar/" method="post"  enctype="application/x-www-form-urlencoded" class="form-style-8">
             Apellido: <input name="apellido" type="text" id="apellido" value=${estudiante.apellido}/><br/><br/>
             Nombre: <input name="nombre" type="text" id="nombre" value=${estudiante.nombre}/><br/><br/>
-            Matricula: <input name="matricula" type="number" id="matricula" value=${estudiante.matricula}/><br/><br/>
+            Matricula: <input name="matricula" type="number" id="matricula" placeholder=${estudiante.matriStr}/><br/><br/>
             Telefono: <input name="telefono" type="text" id="telefono" value=${estudiante.telefono}/><br/><br/>
             <button name="Modificar" type="submit" class="modificar">Modificar</button>
         </form>
