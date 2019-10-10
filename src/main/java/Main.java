@@ -58,7 +58,7 @@ public class Main {
     public static void main(String[] args) {
         //port(5040);
 
-        staticFileLocation("public");
+        staticFileLocation("/public");
 
         get("/saludo", (request, response) -> {
             return "saludo";

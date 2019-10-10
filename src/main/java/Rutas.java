@@ -80,14 +80,14 @@ public class Rutas {
             return writer;
         });
 
-        get("/borrar/", (request, response) -> {
+        /*get("/borrar/", (request, response) -> {
            Template plantillaBorrar = configuration.getTemplate("borrar.ftl");
             StringWriter writer = new StringWriter();
             plantillaBorrar.process(null, writer);
             return writer;
-        });
+        });*/
 
-        post("/borrarEstudiante/:matricula", (request, response) -> {
+        get("/borrarEstudiante/:matricula", (request, response) -> {
             //obteniendo la matricula.
             Main.borrarEstudiante(request.params("matricula"));
 
