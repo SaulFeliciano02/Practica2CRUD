@@ -11,6 +11,14 @@ repositories {
     mavenCentral()
 }
 
+
 dependencies {
     testCompile group: 'junit', name: 'junit', version: '4.12'
+    compile 'com.sparkjava:spark-core:2.9.1'
+    //librearias para los sistemas de plantillas.
+    compile 'com.sparkjava:spark-template-freemarker:2.5.5'
+    compile 'org.freemarker:freemarker:2.3.26-incubating'
+    compile "org.slf4j:slf4j-simple:1.7.21"
+    // https://mvnrepository.com/artifact/org.webjars.bower/jquery
+    compile group: 'org.webjars.bower', name: 'jquery', version: '3.4.1'
 }
